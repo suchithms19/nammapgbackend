@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://mssuchith:dZh7Y5l1ARRv1oz7@cluster0.irnuaxp.mongodb.net/nammapg')
+mongoose.connect('mongodbclusterid/nammapg')
 .then(() => console.log('MongoDB connected'))
 .catch(err => console.log(err));
 
